@@ -8,8 +8,6 @@ const inputImage = document.getElementById('myImage');
 
 
 const addImg = (e) => {
-    console.log(e)
-    console.log(inputImage.files[0])
     const file = inputImage.files[0]
     const reader = new FileReader()
 
